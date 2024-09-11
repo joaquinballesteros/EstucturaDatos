@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.NoSuchElementException;
 import java.util.Queue;
 
-public class ParesBST<Key extends Comparable<Key>, Value> implements InterfazPares<Key, Value> {
+public class ParesAVL<Key extends Comparable<Key>, Value> implements InterfazPares<Key, Value> {
     private Node root; // root of the BST
 
     private class Node {
@@ -22,7 +22,7 @@ public class ParesBST<Key extends Comparable<Key>, Value> implements InterfazPar
     /**
      * Initializes an empty symbol table.
      */
-    public ParesBST() {
+    public ParesAVL() {
         root = null;
     }
 

@@ -9,7 +9,7 @@ public class Principal {
 
         processFile(filePath, new ParesListaEnlazada(), "Lista enlazada: ");
         processFile(filePath, new ParesListaArrayOrdenado(), "Lista array ordenado: ");
-        processFile(filePath, new ParesBST(), "BST: ");
+        processFile(filePath, new ParesAVL(), "BST: ");
 
         
     }

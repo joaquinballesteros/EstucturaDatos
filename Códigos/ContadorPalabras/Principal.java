@@ -16,12 +16,15 @@ public class Principal {
    
 
     public static void processFile(String filePath, InterfazPares<String, Integer> wordCountMap, String outputString) {
+        Runtime runtime = Runtime.getRuntime();
         long startTime = System.currentTimeMillis();
         String mostFrequentWord = findMostFrequentWord(filePath, wordCountMap);
         long endTime = System.currentTimeMillis();
         float executionTime = (endTime - startTime)/1000.0f;
         System.out.println("Most frequent word: " + mostFrequentWord);
         System.out.println(outputString + executionTime + " seconds");
+        long memoryUsed = runtime.totalMemory() - runtime.freeMemory();
+        System.out.println("Memory used: " + memoryUsed + " bytes");
     }
 
     

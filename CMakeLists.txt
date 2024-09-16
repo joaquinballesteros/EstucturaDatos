@@ -6,7 +6,7 @@ project(Ejercicio C)
 
 
 # Variable para el nombre del archivo (sin la extensión .c)
-set(SOURCE_FILE CadenaTerminador)
+set(SOURCE_FILE Ejemplo4)
 
 # Directorio de archivos fuente
 set(SRC_DIR src/PunterosArrays)

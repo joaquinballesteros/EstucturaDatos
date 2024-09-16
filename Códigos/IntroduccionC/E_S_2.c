@@ -1,6 +1,6 @@
 #include <stdio.h>
 //Ejemplo de uso Salida de caracteres y cadenas de caracteres 
-int main() {
+int main(void) {
     char letra = 'A';
     char cadena[] = "Hola, mundo!";
     

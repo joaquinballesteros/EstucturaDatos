@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int var = 20;   // declaración de una variable.
     int *ptr;       // declaración de un puntero.
 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int n, i;
     float numeros[100], suma = 0.0, media;
 

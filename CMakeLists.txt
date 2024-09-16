@@ -9,7 +9,7 @@ project(Ejercicio C)
 set(SOURCE_FILE Ejercicio1)
 
 # Directorio de archivos fuente
-set(SRC_DIR Codigos/TipoPuntero)
+set(SRC_DIR src)
 
 set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_STANDARD_REQUIRED ON)

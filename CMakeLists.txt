@@ -6,17 +6,10 @@ project(Ejercicio C)
 
 
 # Variable para el nombre del archivo (sin la extensión .c)
-<<<<<<< HEAD
-set(SOURCE_FILE HelloWord)
+set(SOURCE_FILE 6ListaEnlazada)
 
 # Directorio de archivos fuente
-set(SRC_DIR src/IntroduccionC)
-=======
-set(SOURCE_FILE Ejemplo4)
-
-# Directorio de archivos fuente
-set(SRC_DIR src/PunterosArrays)
->>>>>>> 8cdc2bc39d612a2c937251db22201a03f9e370f7
+set(SRC_DIR src/MemoriaDinamica)
 
 set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_STANDARD_REQUIRED ON)

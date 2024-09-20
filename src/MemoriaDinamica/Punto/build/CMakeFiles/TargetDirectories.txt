@@ -1,0 +1,3 @@
+C:/Users/raistlin/Documents/DOcencia/EstucturaDatos/src/MemoriaDinamica/Punto/build/CMakeFiles/data_structures_c.dir
+C:/Users/raistlin/Documents/DOcencia/EstucturaDatos/src/MemoriaDinamica/Punto/build/CMakeFiles/edit_cache.dir
+C:/Users/raistlin/Documents/DOcencia/EstucturaDatos/src/MemoriaDinamica/Punto/build/CMakeFiles/rebuild_cache.dir

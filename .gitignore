@@ -57,3 +57,5 @@ Mkfile.old
 dkms.conf
 
 build/*
+
+*/build/*

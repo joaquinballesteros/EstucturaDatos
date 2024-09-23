@@ -1,0 +1,1 @@
+/usr/bin/clang -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/data_structures_c_TA.dir/src/test_a.c.o CMakeFiles/data_structures_c_TA.dir/src/Stack_A/stack_a.c.o -o data_structures_c_TA 

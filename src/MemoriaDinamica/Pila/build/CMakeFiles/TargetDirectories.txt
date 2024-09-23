@@ -1,0 +1,6 @@
+/Users/joaquin/Documents/Docencia2425/EstructuraDatos/EstucturaDatos/src/MemoriaDinamica/Pila/build/CMakeFiles/data_structures_c_LL.dir
+/Users/joaquin/Documents/Docencia2425/EstructuraDatos/EstucturaDatos/src/MemoriaDinamica/Pila/build/CMakeFiles/data_structures_c_A.dir
+/Users/joaquin/Documents/Docencia2425/EstructuraDatos/EstucturaDatos/src/MemoriaDinamica/Pila/build/CMakeFiles/data_structures_c_TA.dir
+/Users/joaquin/Documents/Docencia2425/EstructuraDatos/EstucturaDatos/src/MemoriaDinamica/Pila/build/CMakeFiles/data_structures_c_TLL.dir
+/Users/joaquin/Documents/Docencia2425/EstructuraDatos/EstucturaDatos/src/MemoriaDinamica/Pila/build/CMakeFiles/edit_cache.dir
+/Users/joaquin/Documents/Docencia2425/EstructuraDatos/EstucturaDatos/src/MemoriaDinamica/Pila/build/CMakeFiles/rebuild_cache.dir

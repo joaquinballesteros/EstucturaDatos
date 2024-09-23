@@ -16,7 +16,7 @@ struct Node
     float capacidad;
     enum Tipo material;
     struct Node *next;
-} Node;
+};
 
 struct Stack_ll
 {

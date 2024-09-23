@@ -9,9 +9,9 @@ int main(void)
     assert(stack_ll_isEmpty(pila));
     assert(stack_ll_size(pila) == 0);
 
-    struct Node element = {1,2.5,METAL};
-    struct Node element2 = {2,3.5,PLASTICO};
-    struct Node element3 = {3, 4.5, MADERA};
+    struct Node element = {1,2.5,METAL,NULL};
+    struct Node element2 = {2,3.5,PLASTICO,NULL};
+    struct Node element3 = {3, 4.5, MADERA,NULL};
 
     
     stack_ll_push(pila, element);

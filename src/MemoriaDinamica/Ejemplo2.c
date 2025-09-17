@@ -6,9 +6,7 @@ int main(void)
     // Prueba con 3 y con 1000 elementos
     int numElementos = 1000;
 
-    // Petición de memoria con malloc (número de bytes)
-    // No inicializa
-    int *arrDin = NULL;
+    int *arrDin;
 
     arrDin[0] = 1;
     arrDin[numElementos - 1] = 3;

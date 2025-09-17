@@ -15,7 +15,8 @@ int main(void)
     ptrChar=&b;
     ptrFloat=&f;
 
-    printf("Entero %llu, Char %llu, Float %llu\n", sizeof(ptrInt), sizeof(ptrChar), sizeof(ptrFloat));
+    printf("Entero %llu, Char %llu, Float %llu\n", sizeof(a), sizeof(b), sizeof(f));
+    printf("Ptr Entero %llu, Ptr Char %llu, Ptr Float %llu\n", sizeof(ptrInt), sizeof(ptrChar), sizeof(ptrFloat));
     printf("Entero %p, Char %p, Float %p\n", ptrInt, ptrChar, ptrFloat);
 
 

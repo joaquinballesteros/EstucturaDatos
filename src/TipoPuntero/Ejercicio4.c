@@ -24,7 +24,5 @@ int main(void)
     swap2(&c,&d);
 
     //Usa el debug
-    //REcuerda cambiar el CMakeLists.txt para que compile este fichero en 
-    //set(SOURCE_FILE Ejercicio4)
     return 0;
 }

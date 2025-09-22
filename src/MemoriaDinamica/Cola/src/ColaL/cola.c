@@ -18,7 +18,7 @@ struct Person * createPerson(char *name, int age){
  * @brief Crea una cola vacía
  * @param queue Puntero a la cola
  */
-void createQueue(Queue *ptrqueue){
+void createQueue(struct Node **ptrqueue){
     *ptrqueue = NULL;
 }
 
@@ -27,7 +27,7 @@ void createQueue(Queue *ptrqueue){
  * @param queue Puntero a la cola
  * @return true si la cola está vacía, false en caso contrario
  */
-bool isEmpty(Queue queue){
+bool isEmpty(struct Node * queue){
     return queue == NULL;
 }
 
@@ -36,11 +36,11 @@ bool isEmpty(Queue queue){
  * @param queue Puntero a la cola
  * @return
  */
-int size(Queue queue){
+int size(struct Node * queue){
     int count = 0;
     if (queue != NULL)
     {
-        Queue ultimo = queue; //Empezamos por el ultimo 
+        struct Node * ultimo = queue; //Empezamos por el ultimo
         do
         {
             count++;
@@ -55,7 +55,7 @@ int size(Queue queue){
  * @param queue Puntero a la cola. Apuntamos al último insertado.
  * @param person Puntero a persona a añadir
  */
-void enqueue(Queue *ptrqueue, struct Person * person){
+void enqueue(struct Node **ptrqueue, struct Person * person){
     //Creamos el nodo con sus datos
     struct Node * newNode = (struct Node *)malloc(sizeof(struct Node));
     if(newNode == NULL){
@@ -83,7 +83,7 @@ void enqueue(Queue *ptrqueue, struct Person * person){
  * @brief Elimina el primer elemento de la cola
  * @param queue Puntero a la cola
  */
-void dequeue(Queue *ptrqueue){
+void dequeue(struct Node **ptrqueue){
     if((*ptrqueue != NULL) && ((*ptrqueue)->next == *ptrqueue)){
         //SOlo un elemento
         free(*ptrqueue);
@@ -102,7 +102,7 @@ void dequeue(Queue *ptrqueue){
  * @param queue Cola de la que se quiere obtener el primer elemento
  * @return Persona en la primera posición de la cola
  */
-struct Person * first(Queue queue){
+struct Person * first(struct Node * queue){
     struct Person *res = NULL;
     if (queue != NULL)
     {
@@ -115,7 +115,7 @@ struct Person * first(Queue queue){
  * @brief Limpia la cola
  * @param queue Puntero a la cola
  */
-void clear(Queue *ptrqueue){
+void clear(struct Node **ptrqueue){
     while(*ptrqueue != NULL){
         dequeue(ptrqueue);
     }
@@ -125,9 +125,9 @@ void clear(Queue *ptrqueue){
  * @brief Muestra los elementos de la cola
  * @param queue Puntero a la cola
  */
-void display(Queue queue){
+void display(struct Node * queue){
     if (queue!=NULL){
-        Queue primero = queue->next;
+        struct Node * primero = queue->next;
         queue=queue->next; //Avanzamos para imprimir el primero
         do{
             printf("Nombre: %s, Edad: %d\n",queue->person->name,queue->person->age);

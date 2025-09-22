@@ -5,7 +5,7 @@
 
 int main(void)
 {
-    Queue queue;
+    struct Node * queue;
     createQueue(&queue);
 
     struct Person *person1 = createPerson("Alice", 25);
